@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "allowJs": true,
+        "outFile": "./www/bundle.js",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "module": "system",
+        "target": "es5",
+    },
+    "include": [
+        "app/**/*"
+    ]
+}

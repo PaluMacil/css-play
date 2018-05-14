@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Pangolin");
+body {
+  background-color: #FFF4C3;
+  font-family: "Indie Flower", cursive;
+  margin: 0; }
+
+nav {
+  background-color: #23407C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Pangolin", cursive;
+  height: 32px; }
+  nav div.menu-item {
+    color: white; }
+    nav div.menu-item:hover {
+      background-color: #3A5792; }
+
+div.card {
+  background-color: white; }
+
+.btn {
+  color: #FFF4C3;
+  background-color: #5A1E7D;
+  border-radius: 14px;
+  border: none;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  box-shadow: 6px 6px 3px #D1B1E3; }
