@@ -2,31 +2,46 @@
 body {
   background-color: #FFF4C3;
   font-family: "Indie Flower", cursive;
+  font-size: 16px;
   margin: 0; }
 
 nav {
   background-color: #23407C;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   font-family: "Pangolin", cursive;
-  height: 32px; }
+  font-size: 18px;
+  height: 45px;
+  box-sizing: border-box;
+  color: white; }
   nav div.menu-item {
-    color: white; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px; }
     nav div.menu-item:hover {
       background-color: #3A5792; }
+    nav div.menu-item:active {
+      background-color: #5670A8; }
 
-div.card {
-  background-color: white; }
+.card .card-body {
+  background-color: white;
+  color: #23407C; }
 
 .btn {
   color: #FFF4C3;
+  font-family: "Pangolin", cursive;
   background-color: #5A1E7D;
-  border-radius: 14px;
+  border-radius: 12px;
   border: none;
-  padding: 12px 22px;
+  padding: 10px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  box-shadow: 6px 6px 3px #D1B1E3; }
+  box-shadow: 4px 4px 2px #D1B1E3; }
+  .btn:hover {
+    background-color: #703693; }
+  .btn:active {
+    background-color: #8852A8; }
