@@ -1,4 +1,4 @@
-// Theme Colors
+// Theme Colors (picked via help from http://paletton.com)
 $color-primary-lightest: #FFF4C3;
 $color-primary-light: #FFED9A;
 $color-primary-medium: #FCE473;	// Primary color */
@@ -48,7 +48,7 @@ nav {
         display: flex; // display is not inherited in CSS
         justify-content: center;
         align-items: center;
-        padding: 6px;
+        padding: 0 9px;
         &:hover {
             background-color: $color-secondary-2-dark;
         }
@@ -60,7 +60,7 @@ nav {
 
 .card {
     .card-header{
-
+        background-color: $color-secondary-2-dark;
     }
     .card-body{
         background-color: $color-neutral;
@@ -76,6 +76,7 @@ nav {
     &:hover {
         background-color: $color-secondary-1-dark;
     }
+    transition: box-shadow 0;
     &:active {
         background-color: $color-secondary-1-medium;
         box-shadow: 2px 2px 1px $color-secondary-1-light;

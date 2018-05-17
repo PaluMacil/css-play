@@ -19,11 +19,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6px; }
+    padding: 0 9px; }
     nav div.menu-item:hover {
       background-color: #3A5792; }
     nav div.menu-item:active {
       background-color: #5670A8; }
+
+.card .card-header {
+  background-color: #3A5792; }
 
 .card .card-body {
   background-color: white;
@@ -33,6 +36,7 @@ nav {
   color: #FFF4C3;
   font-family: "Pangolin", cursive;
   background-color: #5A1E7D;
+  transition: box-shadow 0;
   border-radius: 12px;
   border: none;
   padding: 10px 22px;
@@ -44,4 +48,5 @@ nav {
   .btn:hover {
     background-color: #703693; }
   .btn:active {
-    background-color: #8852A8; }
+    background-color: #8852A8;
+    box-shadow: 2px 2px 1px #AC7DC7; }
