@@ -1,1 +1,5 @@
 /node_modules
+/www/style.css
+/www/bundle.js
+/www/bundle.js.map
+/www/bundle.map
